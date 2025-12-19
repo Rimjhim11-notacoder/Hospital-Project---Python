@@ -3,9 +3,9 @@ from datetime import datetime
 
 today_date = datetime.today().strftime('%d-%m-%Y')
 CODE = ""
-PATH = 'C:/Users/0034DK744/Documents/Development/Hospital Project/Hospital.xlsx'
-IMAGE_1 = 'C:/Users/0034DK744/Documents/Development/Hospital Project/h11.png'
-IMAGE_2 = 'C:/Users/0034DK744/Documents/Development/Hospital Project/t11.png'
+PATH = 'Hospital.xlsx'
+IMAGE_1 = 'h11.png'
+IMAGE_2 = 't11.png'
 
 wb = load_workbook(PATH)
 
